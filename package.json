@@ -1,0 +1,30 @@
+{
+  "name": "todox",
+  "version": "0.1.0",
+  "description": "Ticket system based on todo comments",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LionC/todox.git"
+  },
+  "keywords": [
+    "ticket",
+    "tracking",
+    "todo",
+    "comments"
+  ],
+  "author": "Lionc <me@lionc.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LionC/todox/issues"
+  },
+  "homepage": "https://github.com/LionC/todox#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "extract-comments": "^0.10.1",
+    "node-dir": "^0.1.16"
+  }
+}
